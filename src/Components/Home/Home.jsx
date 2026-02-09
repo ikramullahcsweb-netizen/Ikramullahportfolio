@@ -11,7 +11,7 @@ import { PiMinus } from "react-icons/pi";
 const Home = () => {
   return (
 
-    <section id="home" className='container grid lg:pl-35 px-10  md:grid-cols-[auto_1fr_1fr] grid-cols-3 md:gap-x-10 gap-8 lg:gap-x-25  [70vh] md:mt-50 mb-15'>
+    <section id="home" className='container grid lg:pl-35 px-10  md:grid-cols-[auto_1fr_1fr] grid-cols-3 md:gap-x-10 gap-8 lg:gap-x-25  [70vh] md:mt-45 mb-15'>
     <ul className='inline-grid h-1/3 my-auto md:flex-col-center gap-y-4 text-[1.5rem]      text-title mb-15'>
      <li>
       <a className='' href="https://wa.me/qr/HBHXS5AFLMV4J1">
