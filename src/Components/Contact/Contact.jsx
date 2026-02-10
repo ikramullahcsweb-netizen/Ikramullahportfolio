@@ -8,13 +8,13 @@ import { TbMessageCircleFilled } from "react-icons/tb";
 
 const Contact = () => {
   return (
-   <section id='Contact' className='m-9  my-20' >
+   <section id='Contact' className='m-3  md:my-20 mt-20' >
     <h1 className='text-2xl font-bold text-center items-center'>Get in touch</h1>
-    <p className='text-center items-center  mb-12'>Contact me</p>
+    <p className='text-center items-center  md:mb-12 '>Contact me</p>
     <div className='flex  container md:flex-row justify-center gap-7 flex-col'>
       <div className='md:w-50 h-80 w-full flex md:flex-col flex-row-center justify-center gap-2 text-center items-center'>
         <div className='bg-white w-45  h-35 border-2 rounded-2xl border-gray-300  ' >
-           <ul className='inline-grid h-1/3 my-auto md:flex-col-center   gap-y-1.5 pt-4 text-center  text-title mb-15'>
+           <ul className='inline-grid h-1/3 my-auto md:flex-col-center   gap-y-1.5 pt-4 text-center  text-title md:mb-15'>
                <li className='text-center items-center ml-11'>
                 <a className='' href="https://wa.me/qr/HBHXS5AFLMV4J1">
                          <FaWhatsapp size={30} />  </a>
@@ -31,7 +31,7 @@ const Contact = () => {
          
            </div>
         <div className='bg-white w-45 h-35 rounded-2xl border-2 border-gray-300' >
-           <ul className='inline-grid h-1/3 my-auto md:flex-col-center gap-y-1 pt-4 text-center  text-title mb-15'>
+           <ul className='inline-grid h-1/3 my-auto md:flex-col-center gap-y-1 pt-4 text-center  text-title md:mb-15'>
                <li className='text-center items-center ml-12'>
                 <a className='' href="https://wa.me/qr/HBHXS5AFLMV4J1">
                          <AiOutlineMail size={30} /></a>
@@ -66,7 +66,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-        <a href="#input" className='mt-5 ' id=''> <button className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-gray-800 my-3 text-white rounded-2xl hover:bg-gray-950 transition duration-300 font-semibold ml-3 ">
+        <a href="#input" className='mt-5 ' id=''> <button className="inline-flex  gap-2 px-6 py-4 bg-gray-800  text-white rounded-2xl hover:bg-gray-950 transition duration-300 font-semibold  ">
              <span>Send Message</span>  <FaRegPaperPlane size={30} /> 
             
           </button></a>

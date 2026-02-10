@@ -12,12 +12,12 @@ const About = () => {
 
  
       
-      <div className='flex flex-wrap md:flex-row flex-col  justify-center mt-10 md:gap-10   gap-18  '>
+      <div className='flex flex-wrap md:flex-row flex-col  justify-center mt-10 md:gap-10   gap-18   '>
         
-         <img className='md:w-75 h-70 w-[] lg:pr-0  rounded-3xl  ' src={Bg} alt='Profile'/>
+         <img className='md:w-75 h-70 w-[90%] ml-4 lg:pr-0  rounded-3xl  ' src={Bg} alt='Profile'/>
          <div className='flex-row justify-center'>
           <div className='flex gap-4 w-90 '> 
-             <div className='bg-white h-29 w-28  font-sans rounded-xl'>
+             <div className='bg-white h-29 w-28 ml-4  font-sans rounded-xl'>
                <img src={Experiance} alt=""  className='h-7 w-7 text-center items-center ml-9 mt-2'/>
               <p className='font-bold pt-'>Experiance </p> 1.5 year experiance</div>
         <div className='bg-white w-28 h-29 rounded-xl'>
@@ -32,7 +32,7 @@ const About = () => {
 
          </div>
         
-          <p className='mt-8 w-80  mx-10 items-start text-x text-start'>Frontend Developer dedicated to building fast, accessible web applications using React and Tailwind CSS to bridge the gap between clean design and functional code..</p>
+          <p className='mt-8 w-80  md:mx-10 mx-5 text-md font-medium items-start text-x md:text-start text-center text-gray-600 '>Frontend Developer dedicated to building fast, accessible web applications using React and Tailwind CSS to bridge the gap between clean design and functional code..</p>
          </div>
          
      
