@@ -6,22 +6,22 @@ import { FaRegClock } from "react-icons/fa";
 const Project = () => {
 
   return (
-     <section id='Projects' className='my-25 md:mx-3   place-items-center justify-center'>
+     <section id='Projects' className='my-12 md:mx-3   place-items-center justify-center'>
       
     
-        <div className='flex flex-col justify-center  my-0'>
+        <div className='flex flex-col justify-center '>
              <h1 className=' text-3xl font-bold text-center'>Projects</h1>
-             <p className='font-semibold text-center'>My prime projects</p>
+             <p className='font-semibold text-center mb-10'>My prime projects</p>
        
             
-            <div className='flex md:flex-row sm:flex-col justify-center  font-sans text-gray-800  md:mx-1 flex-wrap mx-5  '>
-             <div className='flex flex-wrap   justify-center md:mt-10 lg:gap-10 gap-8  '>
+            <div className='flex md:flex-row sm:flex-col justify-center  font-sans text-gray-800  md:mx-1 flex-wrap mx-5 '>
+             <div className='flex flex-wrap   justify-center md:mt-10 lg:gap-10 gap-8 '>
               
               {/* ist box */}
-              
-               <div className=' h-auto rounded-xl relative md:w-89  w-full '>
-             
-                <button className=' absolute -top-1 ml-[68%] sm:ml-[73%] bg-gray-200 text-sm rounded-4xl px-2 -py-8 inline-flex'><span><TiTick size={17} /> </span>completed</button>
+               
+               <div className=' h-auto rounded-xl relative md:w-89  w-full  ' >
+                 <button className=' absolute -top-1 ml-[68%] sm:ml-[73%] bg-gray-200 text-sm rounded-4xl px-2 -py-8 inline-flex '><span><TiTick size={15} /> </span>Completed</button> 
+                 
                 
                 <ProjectCard
                 title="Sharma Gi Travel"
@@ -117,7 +117,7 @@ const Project = () => {
                  
           
            </div>
-    
+          
            </div>
     
           

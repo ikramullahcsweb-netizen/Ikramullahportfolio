@@ -19,10 +19,10 @@ import { VscTools } from "react-icons/vsc";
 
 const Skill = () => {
   return (
-   <section id='Skill' className='my-25  place-items-center justify-center'>
+   <section id='Skill' className='my-20  place-items-center justify-center'>
 
-    <div className='flex flex-col justify-center  my-36'>
-         <h1 className=' text-3xl font-bold text-center'>Skill</h1>
+    <div className='flex flex-col justify-center  my-12'>
+         <h1 className=' text-3xl font-bold text-center'>Skills</h1>
          <p className='font-semibold text-center'>My Technical Arsenal</p>
    
         

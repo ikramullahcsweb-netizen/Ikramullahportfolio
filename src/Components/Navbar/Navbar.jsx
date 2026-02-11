@@ -12,7 +12,7 @@ const Navbar = () => {
   const [menu,openMenu]=useState(false);
   const [showMenu,setShowMenu]=useState(true)
   return (
-   <nav id='Navbar' className=' md:top-1  w-full h-10  fixed bottom-2 left-0  z-10 flex flex-wrap justify-between   lg:px-20  px-4 lg:pl-34  md:pl-10  md:px-5  lg:pr-40 mt-2 gap-2 md:border-none '>
+   <nav id='Navbar' className=' md:top-2  w-full h-10  fixed bottom-2 left-0  z-10 flex flex-wrap justify-between   lg:px-20  px-4 lg:pl-34  md:pl-10  md:px-5  lg:pr-40 mt-2 gap-2 md:border-none '>
       <span className=' lg:text-2xl font-bold tracking-wide    hover:text-gray-400  transition duration-300  md:text-xl md:static  fixed bottom-2 text-lg  '>Ikramullah </span>
        <ul className ={` ${menu ? "block" : "hidden"} 
              py-2 font-semibold   px-2 rounded-xl  md:bg-opacity-30  text-center md:bg-transparent md:flex grid grid-cols-3 sm:-right-40 -right-41 md:w-auto sm:w-[93%] w-[93%] md:gap-9 gap-3   md:border-none md:static fixed  md:mx-0 mx-45    md:mt-0    top-3  sm:gap-x-20 gap-x-12 border-1 border-gray-300  bg-white   `}>

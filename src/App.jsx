@@ -15,9 +15,11 @@ import Navbar from './Components/Navbar/Navbar'
 
 
 
+
 const App = () => {
   return (
     <div className='bg-gray-50 w-full overflow-hidden text-gray-800 w-'>
+    
       <Navbar/>
       <Home />
       <Scrolldown/>
