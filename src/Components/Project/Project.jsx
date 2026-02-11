@@ -105,7 +105,7 @@ const Project = () => {
                    date="10/12/2024 - 31/12/2024"
                    more="read more"
                      paragraph="key feather"
-                   li="o Fully responsive layout built with Tailwind CSS."
+                   li="o responsive layout built with TailwindCSS."
                    li1="o CSS animations for moves and winning strikes."
                    li3="o Real-time win/draw detection via React Hooks."
                    li4="o Responsive 3x3 board using reusable components."
