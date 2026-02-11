@@ -100,7 +100,7 @@ const Project = () => {
                    main="A logic-driven digital classic featuring real-time win detection and responsive design."
                    button1="o Html"
                    button2="o TailwindCss"
-                   button3="o Javascript"
+                   button3="o React.js"
                    button5="Lucide React"
                    date="10/12/2024 - 31/12/2024"
                    more="read more"

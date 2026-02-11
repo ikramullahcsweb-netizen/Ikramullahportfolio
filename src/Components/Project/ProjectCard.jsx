@@ -47,7 +47,7 @@ const ProjectCard = ( {title , main,button1,button2,button3,date,more,li,paragra
     {showModel && (
 
          <div className='fixed bg-black/30 h-screen z-10 w-screen flex justify-center items-center top-0 right-0  '>
-          <div className='bg-white p-4 md:w-160 sm:h-85 max-h-125  md:top-[20%] lg:right-[50%] md:right-340 md:bottom-[130%] lg:left-[30%] md:left-22 left-3 right-3 top-60 bottom-3 hover:none justify-center fixed rounded-2xl'>
+          <div className='bg-white p-4 md:w-160 sm:h-85 max-h-115  md:top-[20%] lg:right-[50%] md:right-340 md:bottom-[130%] lg:left-[30%] md:left-22 left-3 right-3 top-60 bottom-3 hover:none justify-center fixed rounded-2xl'>
             <div className='flex md:gap-2 md:flex-row flex-col gap-y-25'>
             <div className='flex flex-col gap-4 '>
               <h2 className='text-xl font-bold'>{title}</h2>
