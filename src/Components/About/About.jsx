@@ -1,5 +1,5 @@
 import React from 'react'
-import Bg from '../../assets/profile picture.png'
+import Bg from '../../assets/my profile picture-2.png'
 import Complete from '../../assets/completed-task.png'
 import Experiance from '../../assets/awareness.png'
 import Support from '../../assets/headset.png'

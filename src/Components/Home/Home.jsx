@@ -2,7 +2,7 @@ import React from 'react'
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import Bg from '../../assets/profile picture.png'
+import Bg from '../../assets/my profile picture-2.png'
 import TextChange from './TextChange';
 import { FaRegPaperPlane } from "react-icons/fa";
 import { PiMinus } from "react-icons/pi";
@@ -11,7 +11,7 @@ import { PiMinus } from "react-icons/pi";
 const Home = () => {
   return (
 
-    <section id="Home" className='container grid lg:pl-35 px-10  md:grid-cols-[auto_1fr_1fr] grid-cols-3 md:gap-x-10 gap-8 lg:gap-x-25  [70vh] md:mt-45 mb-15'>
+    <section id="Home" className='container grid lg:pl-35 px-8  md:grid-cols-[auto_1fr_1fr] grid-cols-3 md:gap-x-10 gap-8 lg:gap-x-25  [70vh] md:mt-45 mb-15'>
     <ul className='inline-grid h-1/3 my-auto md:flex-col-center gap-y-4 text-[1.5rem]      text-title mb-15'>
      <li>
       <a className='' href="https://wa.me/qr/HBHXS5AFLMV4J1">
@@ -33,7 +33,7 @@ const Home = () => {
       
     </button></a>
       </div>
-    <div className='order-2 md:order-3 col-span-5 md:col-span-1 h-full flex-col-center  justify-center items-center'><img className='shadow-[0_35px_35px_rgba(0,0,0,0.4)]  md:w-70 md:h-70 w-80 h-80 justify-center items-center text-center justify-center rounded-full'alt="profile-img" src={Bg}/></div>
+    <div className='order-2 md:order-3 col-span-5 md:col-span-1 h-full flex-col-center  justify-center items-center bg-gray-50'><img className='shadow-[0_35px_35px_rgba(0,0,0,0.4)]  md:w-70 md:h-70 w-85 h-80 justify-center items-center text-center justify-center rounded-full border-2'alt="profile-img" src={Bg}/></div>
     </section>
       
      
