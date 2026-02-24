@@ -26,7 +26,7 @@ const Home = () => {
    
     <div className='flex-col-center md:items-start  justify-center items-center md:text-start  gap-y-6   md:mt-0 order-3 md:order-2  mt-10  md:w-90 md:mx-3  mr-10  w-screen text-wrap '><h2 className='text-3xl font-bold text-gray-950 w-90 '><TextChange/></h2>
     <div className='flex-row-center gap-4 font-semibold text-xl '><h6 className='inline-flex pt-5 '> <PiMinus size={30}  /> <span>Frontend Developer </span></h6></div>
-    <p className='md:w-auto w-full pr-10 font-medium text-gray-500 text-md'>I am a skill Web Designer with experiance of creating visually appealing and user friendly websites</p>
+    <p className='md:w-auto w-full pr-10 font-medium text-gray-500 text-md'>I am a skill Web Developer with experiance of creating visually appealing and user friendly websites</p>
  
       <a href="#Contact" className='mt-5 '> <button className='inline-flex items-center justify-center gap-2 px-4 py-2 bg-gray-700 my-3 text-white rounded-lg hover:bg-gray-950 transition'>
        <span>Say Hello</span>  <FaRegPaperPlane size={30} /> 

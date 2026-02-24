@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 const TextChange = () => {
   //  const texts=["Hi,I Am Ikramullah!" , "I am Ikramullah" ,"I am Ikramullah"]
   const texts=["Hi, I AM IKRAMULLAH"]
+ 
   
    const [currentText, setCurrentText]=useState("")
   const [endValue, setEndValue]=useState(true);

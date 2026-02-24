@@ -17,11 +17,11 @@ const ProjectCard = ( {title , main,button1,button2,button3,date,more,li,paragra
        
       
       
-      <h3 className='px-4 text-xl font-semibold  text-gray-800 py-4 leading-normal'>
+      <h3 className='px-2 text-xl font-semibold  text-gray-800 py-4 leading-normal'>
         {title}
           </h3>
         <p className=' tracking-normal font-[var(---font-poppins)]  md:text-normal text-gray-700  leading-tight  px-2 '>{main}</p>
-        <div className='flex gap-2 md:gap-4 mt-2 p-2 md:p-4'>
+        <div className='flex gap-2 md:gap-4 mt-2 p-2 '>
        <div className='items-center justify-center text-center flex sm:gap-3 gap-1'>
        <button className ="inline-flex items-center justify-center gap-2 px-3
         py- bg-gray-100 text-black rounded-4xl transition">
@@ -35,9 +35,9 @@ const ProjectCard = ( {title , main,button1,button2,button3,date,more,li,paragra
          
       </div>   
       <div className='font-light text-gray-400'><hr className='border-dashed mx-3 '/></div>
-      <div className='flex md:gap-x-16 sm:gap-x-[50%] gap-x-[10%] py-2'>
-        <div >{date}</div> 
-        <div  className='flex  '> {more }<BsArrowRightShort size={20} className='mt-1'/> <RxTextAlignCenter size={15} className='mt-1'/> </div>
+      <div className='flex justify-between mx-2  py-2'>
+        <div className='text-sm' >{date}</div> 
+        <div  className='flex text-sm relative mr-2'> {more }<BsArrowRightShort size={20} className='mt-0.5'/> <RxTextAlignCenter size={15} className='mt-1'/> </div>
           
          
       

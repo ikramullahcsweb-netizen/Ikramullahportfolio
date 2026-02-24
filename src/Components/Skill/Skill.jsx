@@ -29,7 +29,7 @@ const Skill = () => {
         <div className='flex flex-col justify-center text-gray-950 flex-wrap mx-5  '>
          <div className='flex flex-wrap   justify-center mt-10 gap-4'>
            <section className='md:w-91 h-40 w-full  bg-white rounded-xl pt-4 '>
-            <div className='flex p-3 mx-3 '><FaReact  size={30} /> <span className='pl-3 font-semibold text-2'>Core stack </span> </div>
+            <div className='flex p-2 mx-2 ml-0 '><FaReact  size={30} /> <span className='pl-3 font-semibold text-xl'>Core stack </span> </div>
             <div className='flex gap-2 px-2 text-sm font-normal'>
         
             <button className="inline-flex  justify-start gap-1 px-2 py-1 bg-gray-50 border-1 border-gray-700  rounded-3xl  transition">
@@ -40,11 +40,11 @@ const Skill = () => {
            </section>
 
            <section className='md:w-91 h-40 w-full  bg-white rounded-xl pt-4 '>
-            <div className='flex p-3 mx-4 font-light'> <FaDatabase size={30} /> <span className='pl-3 font-semibold text-2'>Backend & Database </span> </div>
+            <div className='flex p-2 mx-2 ml-0 font-light'> <FaDatabase size={30} /> <span className='pl-2 font-semibold text-xl'>Backend & Database </span> </div>
             <div className='flex gap-2 px-2 text-sm font-normal'>
              <button className="inline-flex  justify-start gap-1 px-3 py-1 bg-gray-50 border-1 border-gray-700  rounded-3xl  transition">
                     <FaNodeJs size={20} />  <span>Node.js</span></button>
-                      <button className="inline-flex  justify-start gap-1 px-2 py-1 bg-gray-50 border-1 border-gray-700  rounded-3xl  transition">
+                      <button className="inline-flex  justify-start gap-1 px-3 py-1 bg-gray-50 border-1 border-gray-700  rounded-3xl  transition">
                     <FaDatabase  size={20} />  <span>MySQL/MongoDB</span></button>
                      
                     </div>
@@ -54,11 +54,11 @@ const Skill = () => {
              
          <div className='flex flex-wrap   justify-center mt-4 gap-4     '>
            
-              <section className='md:w-91  h-37 w-full  bg-white rounded-xl '>
-            <div className='flex p-3 mx-3 '><FaReact  size={30} /> <span className='pl-3 font-semibold text-2'>Frontend </span> </div>
+              <section className='md:w-91  h-40 w-full  bg-white rounded-xl '>
+            <div className='flex p-2 mx-3 ml-0 '><FaReact  size={30} /> <span className='pl-3 font-semibold text-xl'>Frontend </span> </div>
             <div className='flex gap-2 px-2 flex-wrap text-sm font-normal'>
         
-            <button className='inline-flex  justify-start gap-1 px-2 py-1  bg-gray-50 border-1 border-gray-700  rounded-3xl  transition'>
+            <button className='inline-flex  justify-start gap-1 px-3 py-1  bg-gray-50 border-1 border-gray-700  rounded-3xl  transition'>
              <FaReact size={20} />  <span>React</span></button>
              <button className='inline-flex  justify-start gap-1 px-2 py-1  bg-gray-50 border-1 border-gray-700  rounded-3xl  transition'>
              <SiTailwindcss size={20} />  <span>Tailwind Css</span></button>
@@ -68,9 +68,9 @@ const Skill = () => {
              <DiResponsive size={25} />  <span>Responsive Design</span></button>
              </div>
            </section>
-              <section className='md:w-91 h-37 w-full  bg-white rounded-xl'>
-            <div className='flex p-3 mx-3  '><VscTools   size={27} /> <span className='pl-2 font-semibold text-2'>Tools </span> </div>
-            <div className='flex gap-2 px-2 flex-wrap text-sm font-normal'>
+              <section className='md:w-91 h-40 w-full  bg-white rounded-xl'>
+            <div className='flex p-2 mx-2  '><VscTools   size={27} /> <span className='pl-2 font-semibold text-xl'>Tools </span> </div>
+            <div className='flex gap-2 px-3 flex-wrap text-sm font-normal'>
             
             <button className='inline-flex justify-start gap-1 px-2 py-1 bg-gray-50 border-1 border-gray-700  rounded-3xl  transition '>
              <FaGithub size={20} />  <span>Git/GitHub</span></button>

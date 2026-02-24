@@ -6,7 +6,7 @@ import { FaRegClock } from "react-icons/fa";
 const Project = () => {
 
   return (
-     <section id='Projects' className='my-12 md:mx-3   place-items-center justify-center'>
+     <section id='Projects' className='md:mt-27 my-19 md:mx-3   place-items-center justify-center'>
       
     
         <div className='flex flex-col justify-center '>
@@ -15,7 +15,7 @@ const Project = () => {
        
             
             <div className='flex md:flex-row sm:flex-col justify-center  font-sans text-gray-800  md:mx-1 flex-wrap mx-5 '>
-             <div className='flex flex-wrap   justify-center md:mt-10 lg:gap-10 gap-8 '>
+             <div className='flex flex-wrap   justify-center md:mt-5 lg:gap-10 gap-8 '>
               
               {/* ist box */}
                
@@ -30,7 +30,7 @@ const Project = () => {
                  button2="o Tailwind Css"
                    button3="o React.js"
                    button5="o QR code"
-                   date="10/12/2024 -  31/12/2024"
+                   date="10/9/2024 -  31/9/2024"
                    more="read more"
                    paragraph="key feather"
                    li="o User profiles and travel carts"
@@ -53,7 +53,7 @@ const Project = () => {
                  button2="o Tailwind Css"
                    button3="o React.js"
                    button5= "o Node.js"
-                   date="10/12/2024 -  31/12/2024"
+                   date="10/1/2026 -  31/2/2026"
                    more="read more"
                     paragraph="key feather"
                    li="o Show my experiance"
@@ -79,7 +79,7 @@ const Project = () => {
                  button3="o React.js" 
                   button4="o DataBase" 
                   button5="o QR code"
-                  date="10/12/2024 -  31/12/2024"
+                  date="10/2/2024 -  InProgress"
                    more="read more"
                    paragraph="key feather"
                    li="o User profiles and shopping carts"
@@ -102,7 +102,7 @@ const Project = () => {
                    button2="o TailwindCss"
                    button3="o React.js"
                    button5="Lucide React"
-                   date="10/12/2024 - 31/12/2024"
+                   date="10/6/2025 - 31/7/2025"
                    more="read more"
                      paragraph="key feather"
                    li="o responsive layout built with TailwindCSS."
