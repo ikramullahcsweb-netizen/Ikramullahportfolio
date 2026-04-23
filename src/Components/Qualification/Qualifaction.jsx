@@ -65,12 +65,15 @@ const Qualifaction = () => {
                 </div>
               </div>
                 
-                  <div className='relative z-10 rounded-3xl border-2 justify-center flex items-center font-light'>
-                <div className='w-8 h-8 rounded-4xl  flex items-center bg-gray-50 justify-center text-center md:pl-0.5 md:pt-1  '>
-                 <span className='w-7 h-7 object-contain rounded-3xl items-center justify-center  text-center p-0' > {item.icon}
-                  </span> 
-                </div>
-              </div>
+                
+              <div className='mx-auto relative z-10 w-9 h-9 rounded-full border-2 flex items-center justify-center'>
+               <div className='w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center'>
+               <span className='flex items-center justify-center text-center'> 
+            {item.icon}
+        </span> 
+    </div>
+</div>
+
               <div className='w-1/2'></div>
             </div>
           ))}
