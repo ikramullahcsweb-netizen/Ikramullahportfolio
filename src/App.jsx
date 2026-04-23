@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer'
 import Scrolldown from './Components/Scrolldown/Scrolldown'
 import Project from './Components/Project/Project'
 import Navbar from './Components/Navbar/Navbar'
+import Servese from './Components/Servese/Servese'
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
       <About />
       <Skill />
        <Project/>
+       <Servese/>
       <Qualifaction/>
       <Contact />
       

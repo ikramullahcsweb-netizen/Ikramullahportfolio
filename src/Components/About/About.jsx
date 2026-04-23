@@ -3,6 +3,9 @@ import Bg from '../../assets/my profile picture-2.png'
 import Complete from '../../assets/completed-task.png'
 import Experiance from '../../assets/awareness.png'
 import Support from '../../assets/headset.png'
+import { AiOutlineFilePdf } from "react-icons/ai"; 
+
+
 
 const About = () => {
   return (
@@ -33,8 +36,17 @@ const About = () => {
          </div>
         
           <p className='mt-8 md:w-80 w-[90%] md:mx-10 mx-5 text-md font-medium items-start text-x md:text-start text-center text-gray-600 '>Frontend Developer dedicated to building fast, accessible web applications using React and Tailwind CSS to bridge the gap between clean design and functional code..</p>
+          <div className="flex mt-4 md:justify-start justify-center sm:ml-10 ">
+           <a href="/cv.pdf" download="Ikramullah_CV.pdf" className="inline-block">
+         <button className="flex items-center gap-2.5 px-8 py-4 bg-gray-900 text-white rounded-2xl hover:bg-black transition-all duration-300 shadow-lg group">
+          <AiOutlineFilePdf size={22} className=" group-hover:text-white   transition-colors" />
+        <span className="font-medium tracking-wide">Download CV</span>
+          </button>
+         </a>
          </div>
-         
+         </div>
+     
+
      
     </div>
 

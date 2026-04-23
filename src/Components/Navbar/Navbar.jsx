@@ -7,6 +7,8 @@ import { GiSkills } from "react-icons/gi";
 import { VscProject } from "react-icons/vsc";
 import { IoBagCheck } from "react-icons/io5";
 import { GiInnerSelf } from "react-icons/gi";
+import { VscServer } from "react-icons/vsc";
+
 
 const Navbar = () => {
   const [menu,openMenu]=useState(false);
@@ -30,6 +32,14 @@ const Navbar = () => {
         <a href='#Projects'>
         <li className='text-md transition-all duration-300 p-4 md:p-0 hover:text-gray-400 '><VscProject size={25} className='md:hidden sm:ml-8 ml-4 '/>Projects</li>
         </a>
+        <a href='#Services'>
+       <li className='text-md transition-all duration-300 p-4 md:p-0 hover:text-gray-400'>
+       <VscServer size={25} className='md:hidden sm:ml-8 ml-4 '/>
+        Services
+      </li>
+      </a>
+
+
          <a href='#Portfolio'>
         <li className='text-md transition-all duration-300 p-3 md:p-0 hover:text-gray-400 '><IoBagCheck size={25} className='md:hidden sm:ml-8 ml-4'/>Portfolio</li>
         </a>
